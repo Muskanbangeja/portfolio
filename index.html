@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <ul class="navlist">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About Me</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact Me</a></li>
+    </ul>
+    <div class="portfolio-container" id="Home">
+
+        <div class="left-container">
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
+
+            <div class="content">
+                <p class="intro">Hi! Muskan <span>Bangeja Here</span></p>
+                <h1>FrontEnd Developer</h1>
+                <p class="detail">Passionate web developer with expertise in creating responsive, user-friendly
+                    websites. Proficient in front-end technologies like HTML, CSS, JavaScript, and frameworks like
+                    React. Dedicated to building efficient, scalable web solutions with a focus on performance and clean
+                    code</p>
+                <div class="btn-container">
+                    <button>Download Cv</button>
+                    <button>Available</button>
+                </div>
+            </div>
+        </div>
+        <div class="right-container"></div>
+        <div class="design">
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <section class="about" id="About">
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>FrontEnd Developer</h4>
+            <p>I am a passionate programmer in developing software solutions that solve real-world problems. My
+                expertise lies in [languages or technologies you specialize in, e.g., Python, JavaScript, C++, etc.],
+                and I have a strong focus on [specific area: web development, machine learning, mobile apps, etc.].
+
+                I love working on projects that challenge me to learn and grow. I am particularly interested in [mention
+                a technology, field, or niche you're passionate about, e.g., AI, cloud computing, cybersecurity], and I
+                thrive in environments that encourage creativity and collaboration.
+
+                In addition to coding, I enjoy contributing to open-source projects, staying up to date with the latest
+                trends in tech, and continuously improving my skills. I'm driven by the belief that technology can
+                empower people and make the world a better place.
+
+                Feel free to check out my [GitHub, portfolio, LinkedIn, etc.] to see some of the projects I've worked
+                on!</p>
+            <a href="#" class="navlist">About</a>
+        </div>
+    </section>
+
+    <section class="skills" id="Skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-list">
+                <div class="skill-item">
+                    <h3>C/C++</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress html">
+                            <span class="percentage">80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>Jave code / GUI</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress css">
+                            <span class="percentage">90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>HTML/CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress javascript">
+                            <span class="percentage">70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress react">
+                            <span class="percentage">50%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="projects" id="Projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <h3>University management System</h3>
+                    <p>A University Management System (UMS) is a comprehensive software application that streamlines and
+                        automates various administrative and academic processes within a university. This specific UMS
+                        implementation utilizes a Graphical User Interface (GUI) built with Java to provide a
+                        user-friendly and intuitive interface for interacting with the system.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Car dealership project</h3>
+                    <p>A car dealership database management system (CDDBMS) is a software application that utilizes a
+                        database to store, manage, and retrieve information related to a car dealership's operations.
+                        This system provides a centralized platform for tracking vehicles, customers, sales, inventory,
+                        and other essential aspects of the dealership's business.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Learning Management System</h3>
+                    <p>A Learning Management System (LMS) is a software application that facilitates the delivery,
+                        tracking, and management of educational courses. It often incorporates various data structures
+                        to store, organize, and manipulate information efficiently. It demonstrates linkedlist , graphs
+                        and trees.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p>If you’d like to get in touch, feel free to drop me a message using the form below:</p>
+
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
